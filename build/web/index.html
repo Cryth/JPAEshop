@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>AutoPapuče Prihlásenie</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+    <style>
+        h1,h2,h3{
+            color: white; 
+            -webkit-text-stroke-width: 1px; 
+            -webkit-text-stroke-color: black;
+        }
+    </style>
+</head>
+<body  style="background-image:url(background.jpg); max-width: 100%; height: auto">
+<div class="container text-center">
+    <h1>AutoPapuče</h1>
+    <h3>Váš #1 predajca diskov</h3>
+</div>
+<br><br>
+<div class="row text-center">
+    <div class="col-sm"></div>
+    <div style="background-color: rgba(255, 255, 255, 0.3)" class="col-sm jumbotron">
+        <form action="main" method="post">    
+                <h3>Login</h3>
+                <input type="text" class="form-control" name="meno" required>
+                <br>
+                <h3>Heslo</h3>
+                <input type="password" class="form-control" name="heslo" required>
+                <br>
+            <input type="submit" class="btn btn-primary btn-lg" style="cursor: pointer;" value="Vstup" name="tlacidlo">
+        </form>
+            <h2><br>Nemáte účet? Zaregistrujte sa</h2>
+            <a href="register.html" class="btn btn-danger btn-lg" style="cursor: pointer;" role="button" >Registrácia</a>
+    </div>
+    <div class="col-sm"></div>
+</div>
+
+</body>
+</html>

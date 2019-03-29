@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/build/web/WEB-INF/lib/javax.persistence.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/web/WEB-INF/lib/org.eclipse.persistence.core.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/web/WEB-INF/lib/org.eclipse.persistence.dbws.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/web/WEB-INF/lib/org.eclipse.persistence.moxy.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/web/WEB-INF/lib/org.eclipse.persistence.oracle.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/web/WEB-INF/lib/org.eclipse.persistence.antlr.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/web/WEB-INF/lib/org.eclipse.persistence.asm.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/web/WEB-INF/lib/org.eclipse.persistence.jpa.jpql.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/web/WEB-INF/lib/org.eclipse.persistence.jpa.modelgen.processor.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/web/WEB-INF/lib/org.eclipse.persistence.jpa.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
